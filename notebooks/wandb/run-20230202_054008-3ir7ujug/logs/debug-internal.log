@@ -1,0 +1,297 @@
+2023-02-02 05:40:09,996 INFO    MainThread:7804 [internal.py:wandb_internal():89] W&B internal server running at pid: 7804, started at: 2023-02-02 05:40:09.996502
+2023-02-02 05:40:09,997 INFO    WriterThread:7804 [datastore.py:open_for_write():77] open: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\run-3ir7ujug.wandb
+2023-02-02 05:40:09,997 DEBUG   HandlerThread:7804 [handler.py:handle_request():131] handle_request: check_version
+2023-02-02 05:40:10,000 DEBUG   SenderThread:7804 [sender.py:send():235] send: header
+2023-02-02 05:40:10,000 DEBUG   SenderThread:7804 [sender.py:send_request():249] send_request: check_version
+2023-02-02 05:40:10,057 DEBUG   SenderThread:7804 [sender.py:send():235] send: run
+2023-02-02 05:40:10,464 INFO    SenderThread:7804 [dir_watcher.py:__init__():169] watching files in: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files
+2023-02-02 05:40:10,464 INFO    SenderThread:7804 [sender.py:_start_run_threads():809] run started: 3ir7ujug with start time 1675334408
+2023-02-02 05:40:10,465 DEBUG   SenderThread:7804 [sender.py:send():235] send: summary
+2023-02-02 05:40:10,465 DEBUG   HandlerThread:7804 [handler.py:handle_request():131] handle_request: run_start
+2023-02-02 05:40:10,465 INFO    SenderThread:7804 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2023-02-02 05:40:10,484 DEBUG   HandlerThread:7804 [meta.py:__init__():36] meta init
+2023-02-02 05:40:10,484 DEBUG   HandlerThread:7804 [meta.py:__init__():50] meta init done
+2023-02-02 05:40:10,484 DEBUG   HandlerThread:7804 [meta.py:probe():210] probe
+2023-02-02 05:40:10,492 DEBUG   HandlerThread:7804 [meta.py:_setup_git():200] setup git
+2023-02-02 05:40:10,559 DEBUG   HandlerThread:7804 [meta.py:_setup_git():207] setup git done
+2023-02-02 05:40:10,559 DEBUG   HandlerThread:7804 [meta.py:_save_pip():54] save pip
+2023-02-02 05:40:10,560 DEBUG   HandlerThread:7804 [meta.py:_save_pip():68] save pip done
+2023-02-02 05:40:10,560 DEBUG   HandlerThread:7804 [meta.py:_save_conda():75] save conda
+2023-02-02 05:40:11,477 INFO    Thread-14 :7804 [dir_watcher.py:_on_file_created():217] file/dir created: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\requirements.txt
+2023-02-02 05:40:11,477 INFO    Thread-14 :7804 [dir_watcher.py:_on_file_created():217] file/dir created: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\wandb-summary.json
+2023-02-02 05:40:11,477 INFO    Thread-14 :7804 [dir_watcher.py:_on_file_created():217] file/dir created: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\conda-environment.yaml
+2023-02-02 05:40:15,508 INFO    Thread-14 :7804 [dir_watcher.py:_on_file_created():217] file/dir created: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\output.log
+2023-02-02 05:40:17,537 INFO    Thread-14 :7804 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\output.log
+2023-02-02 05:40:18,455 DEBUG   HandlerThread:7804 [meta.py:_save_conda():85] save conda done
+2023-02-02 05:40:18,455 DEBUG   HandlerThread:7804 [meta.py:probe():248] probe done
+2023-02-02 05:40:18,552 INFO    Thread-14 :7804 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\conda-environment.yaml
+2023-02-02 05:40:18,552 INFO    Thread-14 :7804 [dir_watcher.py:_on_file_created():217] file/dir created: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\wandb-metadata.json
+2023-02-02 05:40:18,607 DEBUG   HandlerThread:7804 [handler.py:handle_request():131] handle_request: stop_status
+2023-02-02 05:40:18,607 DEBUG   SenderThread:7804 [sender.py:send_request():249] send_request: stop_status
+2023-02-02 05:40:18,918 DEBUG   SenderThread:7804 [sender.py:send():235] send: files
+2023-02-02 05:40:18,919 INFO    SenderThread:7804 [sender.py:_save_file():944] saving file wandb-metadata.json with policy now
+2023-02-02 05:40:19,813 INFO    Thread-19 :7804 [upload_job.py:push():137] Uploaded file C:\Users\bhata\AppData\Local\Temp\tmprlryhqaxwandb\18r5be0j-wandb-metadata.json
+2023-02-02 05:40:28,274 DEBUG   SenderThread:7804 [sender.py:send():235] send: history
+2023-02-02 05:40:28,275 DEBUG   SenderThread:7804 [sender.py:send():235] send: summary
+2023-02-02 05:40:28,277 INFO    SenderThread:7804 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2023-02-02 05:40:28,616 INFO    Thread-14 :7804 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\wandb-summary.json
+2023-02-02 05:40:29,285 DEBUG   SenderThread:7804 [sender.py:send():235] send: history
+2023-02-02 05:40:29,286 DEBUG   SenderThread:7804 [sender.py:send():235] send: summary
+2023-02-02 05:40:29,286 INFO    SenderThread:7804 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2023-02-02 05:40:29,621 INFO    Thread-14 :7804 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\output.log
+2023-02-02 05:40:29,621 INFO    Thread-14 :7804 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\wandb-summary.json
+2023-02-02 05:40:30,302 DEBUG   SenderThread:7804 [sender.py:send():235] send: history
+2023-02-02 05:40:30,302 DEBUG   SenderThread:7804 [sender.py:send():235] send: summary
+2023-02-02 05:40:30,305 INFO    SenderThread:7804 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2023-02-02 05:40:30,622 INFO    Thread-14 :7804 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\wandb-summary.json
+2023-02-02 05:40:31,321 DEBUG   SenderThread:7804 [sender.py:send():235] send: history
+2023-02-02 05:40:31,322 DEBUG   SenderThread:7804 [sender.py:send():235] send: summary
+2023-02-02 05:40:31,322 INFO    SenderThread:7804 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2023-02-02 05:40:31,628 INFO    Thread-14 :7804 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\output.log
+2023-02-02 05:40:31,629 INFO    Thread-14 :7804 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\wandb-summary.json
+2023-02-02 05:40:32,332 DEBUG   SenderThread:7804 [sender.py:send():235] send: history
+2023-02-02 05:40:32,332 DEBUG   SenderThread:7804 [sender.py:send():235] send: summary
+2023-02-02 05:40:32,335 INFO    SenderThread:7804 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2023-02-02 05:40:32,633 INFO    Thread-14 :7804 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\wandb-summary.json
+2023-02-02 05:40:33,327 DEBUG   SenderThread:7804 [sender.py:send():235] send: history
+2023-02-02 05:40:33,327 DEBUG   SenderThread:7804 [sender.py:send():235] send: summary
+2023-02-02 05:40:33,328 INFO    SenderThread:7804 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2023-02-02 05:40:33,647 INFO    Thread-14 :7804 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\output.log
+2023-02-02 05:40:33,647 INFO    Thread-14 :7804 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\wandb-summary.json
+2023-02-02 05:40:33,933 DEBUG   HandlerThread:7804 [handler.py:handle_request():131] handle_request: stop_status
+2023-02-02 05:40:33,935 DEBUG   SenderThread:7804 [sender.py:send_request():249] send_request: stop_status
+2023-02-02 05:40:34,346 DEBUG   SenderThread:7804 [sender.py:send():235] send: history
+2023-02-02 05:40:34,347 DEBUG   SenderThread:7804 [sender.py:send():235] send: summary
+2023-02-02 05:40:34,349 INFO    SenderThread:7804 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2023-02-02 05:40:34,648 INFO    Thread-14 :7804 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\wandb-summary.json
+2023-02-02 05:40:35,371 DEBUG   SenderThread:7804 [sender.py:send():235] send: history
+2023-02-02 05:40:35,371 DEBUG   SenderThread:7804 [sender.py:send():235] send: summary
+2023-02-02 05:40:35,372 INFO    SenderThread:7804 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2023-02-02 05:40:35,663 INFO    Thread-14 :7804 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\output.log
+2023-02-02 05:40:35,664 INFO    Thread-14 :7804 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\wandb-summary.json
+2023-02-02 05:40:36,392 DEBUG   SenderThread:7804 [sender.py:send():235] send: history
+2023-02-02 05:40:36,392 DEBUG   SenderThread:7804 [sender.py:send():235] send: summary
+2023-02-02 05:40:36,395 INFO    SenderThread:7804 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2023-02-02 05:40:36,666 INFO    Thread-14 :7804 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\wandb-summary.json
+2023-02-02 05:40:37,417 DEBUG   SenderThread:7804 [sender.py:send():235] send: history
+2023-02-02 05:40:37,418 DEBUG   SenderThread:7804 [sender.py:send():235] send: summary
+2023-02-02 05:40:37,418 INFO    SenderThread:7804 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2023-02-02 05:40:37,670 INFO    Thread-14 :7804 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\output.log
+2023-02-02 05:40:37,670 INFO    Thread-14 :7804 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\wandb-summary.json
+2023-02-02 05:40:38,437 DEBUG   SenderThread:7804 [sender.py:send():235] send: history
+2023-02-02 05:40:38,437 DEBUG   SenderThread:7804 [sender.py:send():235] send: summary
+2023-02-02 05:40:38,439 INFO    SenderThread:7804 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2023-02-02 05:40:38,672 INFO    Thread-14 :7804 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\wandb-summary.json
+2023-02-02 05:40:39,455 DEBUG   SenderThread:7804 [sender.py:send():235] send: history
+2023-02-02 05:40:39,456 DEBUG   SenderThread:7804 [sender.py:send():235] send: summary
+2023-02-02 05:40:39,456 INFO    SenderThread:7804 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2023-02-02 05:40:39,676 INFO    Thread-14 :7804 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\output.log
+2023-02-02 05:40:39,676 INFO    Thread-14 :7804 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\wandb-summary.json
+2023-02-02 05:40:40,487 DEBUG   SenderThread:7804 [sender.py:send():235] send: history
+2023-02-02 05:40:40,487 DEBUG   SenderThread:7804 [sender.py:send():235] send: summary
+2023-02-02 05:40:40,489 INFO    SenderThread:7804 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2023-02-02 05:40:40,680 INFO    Thread-14 :7804 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\wandb-summary.json
+2023-02-02 05:40:41,509 DEBUG   SenderThread:7804 [sender.py:send():235] send: history
+2023-02-02 05:40:41,510 DEBUG   SenderThread:7804 [sender.py:send():235] send: summary
+2023-02-02 05:40:41,511 INFO    SenderThread:7804 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2023-02-02 05:40:41,684 INFO    Thread-14 :7804 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\output.log
+2023-02-02 05:40:41,685 INFO    Thread-14 :7804 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\wandb-summary.json
+2023-02-02 05:40:42,022 DEBUG   SenderThread:7804 [sender.py:send():235] send: stats
+2023-02-02 05:40:42,531 DEBUG   SenderThread:7804 [sender.py:send():235] send: history
+2023-02-02 05:40:42,531 DEBUG   SenderThread:7804 [sender.py:send():235] send: summary
+2023-02-02 05:40:42,533 INFO    SenderThread:7804 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2023-02-02 05:40:42,687 INFO    Thread-14 :7804 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\wandb-summary.json
+2023-02-02 05:40:43,556 DEBUG   SenderThread:7804 [sender.py:send():235] send: history
+2023-02-02 05:40:43,557 DEBUG   SenderThread:7804 [sender.py:send():235] send: summary
+2023-02-02 05:40:43,557 INFO    SenderThread:7804 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2023-02-02 05:40:43,693 INFO    Thread-14 :7804 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\output.log
+2023-02-02 05:40:43,694 INFO    Thread-14 :7804 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\wandb-summary.json
+2023-02-02 05:40:44,574 DEBUG   SenderThread:7804 [sender.py:send():235] send: history
+2023-02-02 05:40:44,575 DEBUG   SenderThread:7804 [sender.py:send():235] send: summary
+2023-02-02 05:40:44,577 INFO    SenderThread:7804 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2023-02-02 05:40:44,695 INFO    Thread-14 :7804 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\wandb-summary.json
+2023-02-02 05:40:45,600 DEBUG   SenderThread:7804 [sender.py:send():235] send: history
+2023-02-02 05:40:45,600 DEBUG   SenderThread:7804 [sender.py:send():235] send: summary
+2023-02-02 05:40:45,601 INFO    SenderThread:7804 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2023-02-02 05:40:45,700 INFO    Thread-14 :7804 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\output.log
+2023-02-02 05:40:45,700 INFO    Thread-14 :7804 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\wandb-summary.json
+2023-02-02 05:40:46,646 DEBUG   SenderThread:7804 [sender.py:send():235] send: history
+2023-02-02 05:40:46,647 DEBUG   SenderThread:7804 [sender.py:send():235] send: summary
+2023-02-02 05:40:46,649 INFO    SenderThread:7804 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2023-02-02 05:40:46,702 INFO    Thread-14 :7804 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\wandb-summary.json
+2023-02-02 05:40:47,661 DEBUG   SenderThread:7804 [sender.py:send():235] send: history
+2023-02-02 05:40:47,662 DEBUG   SenderThread:7804 [sender.py:send():235] send: summary
+2023-02-02 05:40:47,662 INFO    SenderThread:7804 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2023-02-02 05:40:47,714 INFO    Thread-14 :7804 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\output.log
+2023-02-02 05:40:47,714 INFO    Thread-14 :7804 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\wandb-summary.json
+2023-02-02 05:40:48,693 DEBUG   SenderThread:7804 [sender.py:send():235] send: history
+2023-02-02 05:40:48,693 DEBUG   SenderThread:7804 [sender.py:send():235] send: summary
+2023-02-02 05:40:48,695 INFO    SenderThread:7804 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2023-02-02 05:40:48,724 INFO    Thread-14 :7804 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\wandb-summary.json
+2023-02-02 05:40:49,263 DEBUG   HandlerThread:7804 [handler.py:handle_request():131] handle_request: stop_status
+2023-02-02 05:40:49,263 DEBUG   SenderThread:7804 [sender.py:send_request():249] send_request: stop_status
+2023-02-02 05:40:49,736 INFO    Thread-14 :7804 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\output.log
+2023-02-02 05:40:49,767 DEBUG   SenderThread:7804 [sender.py:send():235] send: history
+2023-02-02 05:40:49,767 DEBUG   SenderThread:7804 [sender.py:send():235] send: summary
+2023-02-02 05:40:49,768 INFO    SenderThread:7804 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2023-02-02 05:40:50,739 INFO    Thread-14 :7804 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\wandb-summary.json
+2023-02-02 05:40:50,800 DEBUG   SenderThread:7804 [sender.py:send():235] send: history
+2023-02-02 05:40:50,800 DEBUG   SenderThread:7804 [sender.py:send():235] send: summary
+2023-02-02 05:40:50,802 INFO    SenderThread:7804 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2023-02-02 05:40:51,740 INFO    Thread-14 :7804 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\output.log
+2023-02-02 05:40:51,740 INFO    Thread-14 :7804 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\wandb-summary.json
+2023-02-02 05:40:51,833 DEBUG   SenderThread:7804 [sender.py:send():235] send: history
+2023-02-02 05:40:51,833 DEBUG   SenderThread:7804 [sender.py:send():235] send: summary
+2023-02-02 05:40:51,834 INFO    SenderThread:7804 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2023-02-02 05:40:52,741 INFO    Thread-14 :7804 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\wandb-summary.json
+2023-02-02 05:40:52,860 DEBUG   SenderThread:7804 [sender.py:send():235] send: history
+2023-02-02 05:40:52,861 DEBUG   SenderThread:7804 [sender.py:send():235] send: summary
+2023-02-02 05:40:52,862 INFO    SenderThread:7804 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2023-02-02 05:40:53,746 INFO    Thread-14 :7804 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\output.log
+2023-02-02 05:40:53,746 INFO    Thread-14 :7804 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\wandb-summary.json
+2023-02-02 05:40:53,879 DEBUG   SenderThread:7804 [sender.py:send():235] send: history
+2023-02-02 05:40:53,879 DEBUG   SenderThread:7804 [sender.py:send():235] send: summary
+2023-02-02 05:40:53,880 INFO    SenderThread:7804 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2023-02-02 05:40:54,750 INFO    Thread-14 :7804 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\wandb-summary.json
+2023-02-02 05:40:54,902 DEBUG   SenderThread:7804 [sender.py:send():235] send: history
+2023-02-02 05:40:54,902 DEBUG   SenderThread:7804 [sender.py:send():235] send: summary
+2023-02-02 05:40:54,904 INFO    SenderThread:7804 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2023-02-02 05:40:55,763 INFO    Thread-14 :7804 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\output.log
+2023-02-02 05:40:55,764 INFO    Thread-14 :7804 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\wandb-summary.json
+2023-02-02 05:40:55,928 DEBUG   SenderThread:7804 [sender.py:send():235] send: history
+2023-02-02 05:40:55,929 DEBUG   SenderThread:7804 [sender.py:send():235] send: summary
+2023-02-02 05:40:55,929 INFO    SenderThread:7804 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2023-02-02 05:40:56,774 INFO    Thread-14 :7804 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\wandb-summary.json
+2023-02-02 05:40:56,969 DEBUG   SenderThread:7804 [sender.py:send():235] send: history
+2023-02-02 05:40:56,969 DEBUG   SenderThread:7804 [sender.py:send():235] send: summary
+2023-02-02 05:40:56,972 INFO    SenderThread:7804 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2023-02-02 05:40:57,790 INFO    Thread-14 :7804 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\output.log
+2023-02-02 05:40:57,790 INFO    Thread-14 :7804 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\wandb-summary.json
+2023-02-02 05:40:57,971 DEBUG   SenderThread:7804 [sender.py:send():235] send: history
+2023-02-02 05:40:57,972 DEBUG   SenderThread:7804 [sender.py:send():235] send: summary
+2023-02-02 05:40:57,972 INFO    SenderThread:7804 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2023-02-02 05:40:58,791 INFO    Thread-14 :7804 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\wandb-summary.json
+2023-02-02 05:40:58,992 DEBUG   SenderThread:7804 [sender.py:send():235] send: history
+2023-02-02 05:40:58,992 DEBUG   SenderThread:7804 [sender.py:send():235] send: summary
+2023-02-02 05:40:58,995 INFO    SenderThread:7804 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2023-02-02 05:40:59,807 INFO    Thread-14 :7804 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\output.log
+2023-02-02 05:40:59,807 INFO    Thread-14 :7804 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\wandb-summary.json
+2023-02-02 05:41:00,025 DEBUG   SenderThread:7804 [sender.py:send():235] send: history
+2023-02-02 05:41:00,025 DEBUG   SenderThread:7804 [sender.py:send():235] send: summary
+2023-02-02 05:41:00,026 INFO    SenderThread:7804 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2023-02-02 05:41:00,810 INFO    Thread-14 :7804 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\wandb-summary.json
+2023-02-02 05:41:01,035 DEBUG   SenderThread:7804 [sender.py:send():235] send: history
+2023-02-02 05:41:01,035 DEBUG   SenderThread:7804 [sender.py:send():235] send: summary
+2023-02-02 05:41:01,037 INFO    SenderThread:7804 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2023-02-02 05:41:01,815 INFO    Thread-14 :7804 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\output.log
+2023-02-02 05:41:01,815 INFO    Thread-14 :7804 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\wandb-summary.json
+2023-02-02 05:41:02,926 DEBUG   HandlerThread:7804 [handler.py:handle_request():131] handle_request: pause
+2023-02-02 05:41:02,927 INFO    HandlerThread:7804 [handler.py:handle_request_pause():620] stopping system metrics thread
+2023-02-02 05:41:02,975 DEBUG   SenderThread:7804 [sender.py:send():235] send: stats
+2023-02-02 05:41:03,825 INFO    Thread-14 :7804 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\output.log
+2023-02-02 05:41:04,577 DEBUG   HandlerThread:7804 [handler.py:handle_request():131] handle_request: stop_status
+2023-02-02 05:41:04,577 DEBUG   SenderThread:7804 [sender.py:send_request():249] send_request: stop_status
+2023-02-02 05:41:19,900 DEBUG   HandlerThread:7804 [handler.py:handle_request():131] handle_request: stop_status
+2023-02-02 05:41:19,900 DEBUG   SenderThread:7804 [sender.py:send_request():249] send_request: stop_status
+2023-02-02 05:41:22,633 DEBUG   HandlerThread:7804 [handler.py:handle_request():131] handle_request: poll_exit
+2023-02-02 05:41:22,635 DEBUG   SenderThread:7804 [sender.py:send():235] send: telemetry
+2023-02-02 05:41:22,635 DEBUG   SenderThread:7804 [sender.py:send():235] send: exit
+2023-02-02 05:41:22,635 INFO    SenderThread:7804 [sender.py:send_exit():371] handling exit code: 0
+2023-02-02 05:41:22,635 INFO    SenderThread:7804 [sender.py:send_exit():373] handling runtime: 52
+2023-02-02 05:41:22,637 INFO    SenderThread:7804 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2023-02-02 05:41:22,637 INFO    SenderThread:7804 [sender.py:send_exit():379] send defer
+2023-02-02 05:41:22,638 DEBUG   SenderThread:7804 [sender.py:send_request():249] send_request: poll_exit
+2023-02-02 05:41:22,638 DEBUG   HandlerThread:7804 [handler.py:handle_request():131] handle_request: defer
+2023-02-02 05:41:22,638 INFO    HandlerThread:7804 [handler.py:handle_request_defer():154] handle defer: 0
+2023-02-02 05:41:22,638 DEBUG   SenderThread:7804 [sender.py:send_request():249] send_request: defer
+2023-02-02 05:41:22,638 INFO    SenderThread:7804 [sender.py:send_request_defer():388] handle sender defer: 0
+2023-02-02 05:41:22,639 INFO    SenderThread:7804 [sender.py:transition_state():392] send defer: 1
+2023-02-02 05:41:22,639 DEBUG   HandlerThread:7804 [handler.py:handle_request():131] handle_request: defer
+2023-02-02 05:41:22,639 INFO    HandlerThread:7804 [handler.py:handle_request_defer():154] handle defer: 1
+2023-02-02 05:41:22,639 DEBUG   SenderThread:7804 [sender.py:send_request():249] send_request: defer
+2023-02-02 05:41:22,639 INFO    SenderThread:7804 [sender.py:send_request_defer():388] handle sender defer: 1
+2023-02-02 05:41:22,639 INFO    SenderThread:7804 [sender.py:transition_state():392] send defer: 2
+2023-02-02 05:41:22,639 DEBUG   HandlerThread:7804 [handler.py:handle_request():131] handle_request: defer
+2023-02-02 05:41:22,639 INFO    HandlerThread:7804 [handler.py:handle_request_defer():154] handle defer: 2
+2023-02-02 05:41:22,640 DEBUG   SenderThread:7804 [sender.py:send_request():249] send_request: defer
+2023-02-02 05:41:22,640 INFO    SenderThread:7804 [sender.py:send_request_defer():388] handle sender defer: 2
+2023-02-02 05:41:22,640 INFO    SenderThread:7804 [sender.py:transition_state():392] send defer: 3
+2023-02-02 05:41:22,640 DEBUG   HandlerThread:7804 [handler.py:handle_request():131] handle_request: defer
+2023-02-02 05:41:22,640 INFO    HandlerThread:7804 [handler.py:handle_request_defer():154] handle defer: 3
+2023-02-02 05:41:22,640 DEBUG   SenderThread:7804 [sender.py:send():235] send: summary
+2023-02-02 05:41:22,641 INFO    SenderThread:7804 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2023-02-02 05:41:22,641 DEBUG   SenderThread:7804 [sender.py:send_request():249] send_request: defer
+2023-02-02 05:41:22,641 INFO    SenderThread:7804 [sender.py:send_request_defer():388] handle sender defer: 3
+2023-02-02 05:41:22,641 INFO    SenderThread:7804 [sender.py:transition_state():392] send defer: 4
+2023-02-02 05:41:22,641 DEBUG   HandlerThread:7804 [handler.py:handle_request():131] handle_request: defer
+2023-02-02 05:41:22,642 INFO    HandlerThread:7804 [handler.py:handle_request_defer():154] handle defer: 4
+2023-02-02 05:41:22,642 DEBUG   SenderThread:7804 [sender.py:send_request():249] send_request: defer
+2023-02-02 05:41:22,642 INFO    SenderThread:7804 [sender.py:send_request_defer():388] handle sender defer: 4
+2023-02-02 05:41:22,758 DEBUG   HandlerThread:7804 [handler.py:handle_request():131] handle_request: poll_exit
+2023-02-02 05:41:22,975 INFO    Thread-14 :7804 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\output.log
+2023-02-02 05:41:22,975 INFO    Thread-14 :7804 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\wandb-summary.json
+2023-02-02 05:41:23,004 INFO    SenderThread:7804 [sender.py:transition_state():392] send defer: 5
+2023-02-02 05:41:23,004 DEBUG   SenderThread:7804 [sender.py:send_request():249] send_request: poll_exit
+2023-02-02 05:41:23,005 DEBUG   HandlerThread:7804 [handler.py:handle_request():131] handle_request: defer
+2023-02-02 05:41:23,005 INFO    HandlerThread:7804 [handler.py:handle_request_defer():154] handle defer: 5
+2023-02-02 05:41:23,005 DEBUG   SenderThread:7804 [sender.py:send_request():249] send_request: defer
+2023-02-02 05:41:23,005 INFO    SenderThread:7804 [sender.py:send_request_defer():388] handle sender defer: 5
+2023-02-02 05:41:23,005 INFO    SenderThread:7804 [dir_watcher.py:finish():283] shutting down directory watcher
+2023-02-02 05:41:23,116 DEBUG   HandlerThread:7804 [handler.py:handle_request():131] handle_request: poll_exit
+2023-02-02 05:41:23,984 INFO    SenderThread:7804 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\config.yaml
+2023-02-02 05:41:23,985 INFO    SenderThread:7804 [dir_watcher.py:finish():313] scan: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files
+2023-02-02 05:41:23,985 INFO    SenderThread:7804 [dir_watcher.py:finish():327] scan save: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\conda-environment.yaml conda-environment.yaml
+2023-02-02 05:41:23,985 INFO    SenderThread:7804 [dir_watcher.py:finish():327] scan save: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\config.yaml config.yaml
+2023-02-02 05:41:23,986 INFO    SenderThread:7804 [dir_watcher.py:finish():327] scan save: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\output.log output.log
+2023-02-02 05:41:23,990 INFO    SenderThread:7804 [dir_watcher.py:finish():327] scan save: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\requirements.txt requirements.txt
+2023-02-02 05:41:23,996 INFO    SenderThread:7804 [dir_watcher.py:finish():327] scan save: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\wandb-metadata.json wandb-metadata.json
+2023-02-02 05:41:24,000 INFO    SenderThread:7804 [dir_watcher.py:finish():327] scan save: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\wandb-summary.json wandb-summary.json
+2023-02-02 05:41:24,002 INFO    SenderThread:7804 [sender.py:transition_state():392] send defer: 6
+2023-02-02 05:41:24,003 DEBUG   SenderThread:7804 [sender.py:send_request():249] send_request: poll_exit
+2023-02-02 05:41:24,011 DEBUG   HandlerThread:7804 [handler.py:handle_request():131] handle_request: defer
+2023-02-02 05:41:24,012 INFO    HandlerThread:7804 [handler.py:handle_request_defer():154] handle defer: 6
+2023-02-02 05:41:24,013 DEBUG   SenderThread:7804 [sender.py:send_request():249] send_request: defer
+2023-02-02 05:41:24,013 INFO    SenderThread:7804 [sender.py:send_request_defer():388] handle sender defer: 6
+2023-02-02 05:41:24,013 INFO    SenderThread:7804 [file_pusher.py:finish():177] shutting down file pusher
+2023-02-02 05:41:24,109 DEBUG   HandlerThread:7804 [handler.py:handle_request():131] handle_request: poll_exit
+2023-02-02 05:41:24,109 DEBUG   SenderThread:7804 [sender.py:send_request():249] send_request: poll_exit
+2023-02-02 05:41:24,221 DEBUG   HandlerThread:7804 [handler.py:handle_request():131] handle_request: poll_exit
+2023-02-02 05:41:24,222 DEBUG   SenderThread:7804 [sender.py:send_request():249] send_request: poll_exit
+2023-02-02 05:41:24,332 DEBUG   HandlerThread:7804 [handler.py:handle_request():131] handle_request: poll_exit
+2023-02-02 05:41:24,333 DEBUG   SenderThread:7804 [sender.py:send_request():249] send_request: poll_exit
+2023-02-02 05:41:24,439 DEBUG   HandlerThread:7804 [handler.py:handle_request():131] handle_request: poll_exit
+2023-02-02 05:41:24,439 DEBUG   SenderThread:7804 [sender.py:send_request():249] send_request: poll_exit
+2023-02-02 05:41:24,549 DEBUG   HandlerThread:7804 [handler.py:handle_request():131] handle_request: poll_exit
+2023-02-02 05:41:24,549 DEBUG   SenderThread:7804 [sender.py:send_request():249] send_request: poll_exit
+2023-02-02 05:41:24,657 DEBUG   HandlerThread:7804 [handler.py:handle_request():131] handle_request: poll_exit
+2023-02-02 05:41:24,658 DEBUG   SenderThread:7804 [sender.py:send_request():249] send_request: poll_exit
+2023-02-02 05:41:24,859 INFO    Thread-22 :7804 [upload_job.py:push():137] Uploaded file C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\output.log
+2023-02-02 05:41:24,860 INFO    Thread-23 :7804 [upload_job.py:push():137] Uploaded file C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\requirements.txt
+2023-02-02 05:41:24,875 INFO    Thread-24 :7804 [upload_job.py:push():137] Uploaded file C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\wandb-summary.json
+2023-02-02 05:41:24,888 INFO    Thread-20 :7804 [upload_job.py:push():137] Uploaded file C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\conda-environment.yaml
+2023-02-02 05:41:24,909 INFO    Thread-21 :7804 [upload_job.py:push():137] Uploaded file C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\files\config.yaml
+2023-02-02 05:41:25,114 INFO    Thread-13 :7804 [sender.py:transition_state():392] send defer: 7
+2023-02-02 05:41:25,114 DEBUG   HandlerThread:7804 [handler.py:handle_request():131] handle_request: defer
+2023-02-02 05:41:25,115 INFO    HandlerThread:7804 [handler.py:handle_request_defer():154] handle defer: 7
+2023-02-02 05:41:25,115 DEBUG   SenderThread:7804 [sender.py:send_request():249] send_request: defer
+2023-02-02 05:41:25,115 INFO    SenderThread:7804 [sender.py:send_request_defer():388] handle sender defer: 7
+2023-02-02 05:41:26,086 INFO    SenderThread:7804 [sender.py:transition_state():392] send defer: 8
+2023-02-02 05:41:26,087 DEBUG   HandlerThread:7804 [handler.py:handle_request():131] handle_request: defer
+2023-02-02 05:41:26,087 INFO    HandlerThread:7804 [handler.py:handle_request_defer():154] handle defer: 8
+2023-02-02 05:41:26,087 DEBUG   SenderThread:7804 [sender.py:send_request():249] send_request: defer
+2023-02-02 05:41:26,087 INFO    SenderThread:7804 [sender.py:send_request_defer():388] handle sender defer: 8
+2023-02-02 05:41:26,087 INFO    SenderThread:7804 [sender.py:transition_state():392] send defer: 9
+2023-02-02 05:41:26,088 DEBUG   SenderThread:7804 [sender.py:send():235] send: final
+2023-02-02 05:41:26,088 DEBUG   SenderThread:7804 [sender.py:send():235] send: footer
+2023-02-02 05:41:26,088 DEBUG   HandlerThread:7804 [handler.py:handle_request():131] handle_request: defer
+2023-02-02 05:41:26,088 INFO    HandlerThread:7804 [handler.py:handle_request_defer():154] handle defer: 9
+2023-02-02 05:41:26,088 DEBUG   SenderThread:7804 [sender.py:send_request():249] send_request: defer
+2023-02-02 05:41:26,088 INFO    SenderThread:7804 [sender.py:send_request_defer():388] handle sender defer: 9
+2023-02-02 05:41:31,591 WARNING MainThread:7804 [internal.py:is_dead():380] Internal process exiting, parent pid 22560 disappeared
+2023-02-02 05:41:31,591 ERROR   MainThread:7804 [internal.py:wandb_internal():148] Internal process shutdown.
+2023-02-02 05:41:32,115 INFO    SenderThread:7804 [sender.py:finish():1075] shutting down sender
+2023-02-02 05:41:32,115 INFO    WriterThread:7804 [datastore.py:close():281] close: C:\aiornot\notebooks\wandb\run-20230202_054008-3ir7ujug\run-3ir7ujug.wandb
+2023-02-02 05:41:32,115 INFO    HandlerThread:7804 [handler.py:finish():739] shutting down handler
+2023-02-02 05:41:32,115 INFO    SenderThread:7804 [file_pusher.py:finish():177] shutting down file pusher
+2023-02-02 05:41:32,115 INFO    SenderThread:7804 [file_pusher.py:join():182] waiting for file pusher
+2023-02-02 05:41:32,117 INFO    MainThread:7804 [internal.py:handle_exit():79] Internal process exited

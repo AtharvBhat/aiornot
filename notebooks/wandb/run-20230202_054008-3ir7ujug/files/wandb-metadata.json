@@ -1,0 +1,26 @@
+{
+    "os": "Windows-10-10.0.22000-SP0",
+    "python": "3.9.6",
+    "heartbeatAt": "2023-02-02T10:40:10.484692",
+    "startedAt": "2023-02-02T10:40:08.643411",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 2070 Super with Max-Q Design",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [
+        "-f",
+        "C:\\Users\\bhata\\AppData\\Roaming\\jupyter\\runtime\\kernel-23345685-40b6-45f8-948b-45a822284e35.json"
+    ],
+    "state": "running",
+    "program": "notebooks/train.ipynb",
+    "root": "C:/aiornot",
+    "git": {
+        "remote": "https://github.com/AtharvBhat/aiornot",
+        "commit": "6378bcdb1486efac6673c5527ffbd171360b0e1c"
+    },
+    "email": "bhat.atharv@gmail.com",
+    "host": "DESKTOP-HCM5J4M",
+    "username": "bhata",
+    "executable": "C:\\Users\\bhata\\anaconda3\\envs\\pytorch\\python.exe"
+}
